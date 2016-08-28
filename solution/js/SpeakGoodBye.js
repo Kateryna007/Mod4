@@ -1,14 +1,7 @@
-(function) (window) {
-	var johnGreeter = {}
-	johnGreeter.name = "John";
-	var greeting = "Good Bye ";
-	johnGreeter.saybye = function () {
-		console.log(greeting + johnGreeter.name);
-	}
-
-	window.johnGreeter = johnGreeter
-})(window);
-
+var name = "John";
+function sayGoodBye () {
+	console.log("Good Bye " + name);
+}
 
 
 // NOTE! The steps in this file are basically identical to the ones you
