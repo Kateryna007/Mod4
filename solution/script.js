@@ -1,6 +1,0 @@
- yaakovGreeter.sayHello();
-johnGreeter.sayBye();
-
-
-
-
